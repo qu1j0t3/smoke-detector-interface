@@ -4520,7 +4520,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 143.51) (xy 194.31 143.51)
+			(xy 194.31 143.51) (xy 208.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +4920,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 140.97) (xy 196.85 140.97)
+			(xy 208.28 140.97) (xy 207.01 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5217,16 +5217,6 @@
 			(type default)
 		)
 		(uuid "ecbfd012-d41f-488f-bd0d-9d48c475dcf9")
-	)
-	(wire
-		(pts
-			(xy 208.28 143.51) (xy 207.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd8b202-a900-4307-b62c-e3b6f1295251")
 	)
 	(wire
 		(pts
@@ -8437,7 +8427,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 201.93 143.51 0)
+		(at 201.93 140.97 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8446,7 +8436,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6cdba0-6bd2-422e-8935-cdca496c85f1")
 		(property "Reference" "JP1"
-			(at 201.93 137.16 0)
+			(at 201.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,15 +8444,15 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 201.93 139.7 0)
+			(at 201.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
-			(at 201.93 143.51 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 143.51 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8470,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 201.93 143.51 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
