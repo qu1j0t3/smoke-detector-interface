@@ -4315,126 +4315,6 @@
 				)
 			)
 		)
-		(symbol "power:+10V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+10V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+10V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+10V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+10V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -5091,12 +4971,6 @@
 		(uuid "786b8298-0399-4379-ad46-0610521f127f")
 	)
 	(junction
-		(at 256.54 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bd77af9-8b1e-42a6-a358-0c3d0f733f07")
-	)
-	(junction
 		(at 106.68 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5155,12 +5029,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00077a2-f83f-4261-97c6-adc3f27f3f11")
-	)
-	(junction
-		(at 267.97 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c69f0687-9b21-4df6-9201-b4ab9ac03c75")
 	)
 	(junction
 		(at 86.36 90.17)
@@ -5224,16 +5092,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 39.37) (xy 250.19 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02809f3c-1589-456c-90ae-ab0f4e19318f")
-	)
-	(wire
-		(pts
 			(xy 246.38 129.54) (xy 246.38 127)
 		)
 		(stroke
@@ -5281,6 +5139,16 @@
 			(type default)
 		)
 		(uuid "0cf3b89f-cad9-4208-a01b-ceab1ae6bdc3")
+	)
+	(wire
+		(pts
+			(xy 238.76 25.4) (xy 238.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102a4ffd-110f-42d7-beac-d7432a437cab")
 	)
 	(wire
 		(pts
@@ -5341,6 +5209,16 @@
 			(type default)
 		)
 		(uuid "20678989-7273-4b7f-9a65-1cd974f44626")
+	)
+	(wire
+		(pts
+			(xy 246.38 25.4) (xy 238.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b0dae8-0ff2-4539-bb6f-1ba9251ed69f")
 	)
 	(wire
 		(pts
@@ -5444,6 +5322,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 35.56) (xy 227.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8012c5-a017-41d5-aa06-28ee4e6a3f71")
+	)
+	(wire
+		(pts
 			(xy 39.37 142.24) (xy 39.37 147.32)
 		)
 		(stroke
@@ -5451,16 +5339,6 @@
 			(type default)
 		)
 		(uuid "2dd47e89-a7eb-4220-a003-969f96ccf249")
-	)
-	(wire
-		(pts
-			(xy 256.54 49.53) (xy 256.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7c86c2-9971-48d8-a518-7621ebc32955")
 	)
 	(wire
 		(pts
@@ -5481,16 +5359,6 @@
 			(type default)
 		)
 		(uuid "30c81cf5-f2b8-4065-b0e0-a7904614640d")
-	)
-	(wire
-		(pts
-			(xy 226.06 30.48) (xy 226.06 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3189ecb3-08c9-4f5a-9d85-86f9925bfd48")
 	)
 	(wire
 		(pts
@@ -5704,6 +5572,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 29.21) (xy 246.38 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c32bbe1-a428-49f9-a5ab-05ce15a689b9")
+	)
+	(wire
+		(pts
 			(xy 67.31 100.33) (xy 57.15 100.33)
 		)
 		(stroke
@@ -5754,16 +5632,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 39.37) (xy 267.97 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a7c5c6-f0d8-4fae-a557-5da938fbaee0")
-	)
-	(wire
-		(pts
 			(xy 248.92 132.08) (xy 248.92 127)
 		)
 		(stroke
@@ -5811,16 +5679,6 @@
 			(type default)
 		)
 		(uuid "5fc4da94-bb86-4327-9f7e-242536721e64")
-	)
-	(wire
-		(pts
-			(xy 267.97 49.53) (xy 267.97 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60b2759e-8f4f-4448-9e45-195ed01c88fe")
 	)
 	(wire
 		(pts
@@ -6144,16 +6002,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 39.37) (xy 267.97 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a234f598-9040-4e56-a3c2-62d66f8bf96b")
-	)
-	(wire
-		(pts
 			(xy 86.36 83.82) (xy 86.36 86.36)
 		)
 		(stroke
@@ -6224,16 +6072,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 39.37) (xy 234.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc90379-ffa3-46d1-a1aa-965383c5898c")
-	)
-	(wire
-		(pts
 			(xy 238.76 127) (xy 243.84 127)
 		)
 		(stroke
@@ -6251,6 +6089,16 @@
 			(type default)
 		)
 		(uuid "af4fb1ed-d505-437d-8c67-898962e8bd78")
+	)
+	(wire
+		(pts
+			(xy 246.38 52.07) (xy 246.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b073fd9c-6f87-4009-9a40-7640fdb5c6c7")
 	)
 	(wire
 		(pts
@@ -6361,16 +6209,6 @@
 			(type default)
 		)
 		(uuid "c43aef6b-d634-4f0e-942d-fdb66d475b46")
-	)
-	(wire
-		(pts
-			(xy 256.54 30.48) (xy 256.54 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53d7142-e024-40ef-9b58-118d7b9688de")
 	)
 	(wire
 		(pts
@@ -6564,16 +6402,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 39.37) (xy 256.54 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d0d3dc-b3b6-4cdd-ac80-aeea8541dad6")
-	)
-	(wire
-		(pts
 			(xy 77.47 86.36) (xy 86.36 86.36)
 		)
 		(stroke
@@ -6644,6 +6472,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 40.64) (xy 246.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9f112f-a821-4f7f-b937-2a36f7b88075")
+	)
+	(wire
+		(pts
 			(xy 238.76 118.11) (xy 238.76 127)
 		)
 		(stroke
@@ -6711,6 +6549,16 @@
 			(type default)
 		)
 		(uuid "f6260aaa-33b0-45e1-bc14-a287a591225f")
+	)
+	(wire
+		(pts
+			(xy 227.33 46.99) (xy 227.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6905332-9f2f-4c4c-98a8-f006c6ff71c5")
 	)
 	(wire
 		(pts
@@ -7220,7 +7068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u FILM"
+		(property "Value" ".47u FILM"
 			(at 82.5499 35.56 0)
 			(effects
 				(font
@@ -7229,7 +7077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 85.09 38.4048 0)
 			(effects
 				(font
@@ -7332,73 +7180,6 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 267.97 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b77736c-cdb9-4ea9-8302-cecc847fdaf1")
-		(property "Reference" "TP+10"
-			(at 270.51 34.7979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+10	"
-			(at 270.51 37.3379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
-			(at 273.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 267.97 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4af12fd7-df2d-4212-aef9-d3a74d934a7b")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "TP+10")
 					(unit 1)
 				)
 			)
@@ -8143,7 +7924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 22.5552 64.77 0)
 			(effects
 				(font
@@ -8666,76 +8447,6 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 256.54 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c125bf6-3031-4ceb-b945-9edc0ccea0cb")
-		(property "Reference" "C2"
-			(at 260.35 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 260.35 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 257.5052 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77710cae-36f3-4f22-9c7a-74da3eb54277")
-		)
-		(pin "2"
-			(uuid "15355347-d958-4806-ba37-10cc71956426")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9323,6 +9034,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-15V")
+		(at 246.38 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515199b0-8f7f-4bd9-89b1-4ba30c17d931")
+		(property "Reference" "#PWR015"
+			(at 246.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 246.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2808441-f453-487f-95f6-c64ead82847d")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 54.61 0)
 		(unit 1)
@@ -9449,75 +9226,6 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 267.97 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c5e51a4-3196-469a-a5ec-298daa5969a8")
-		(property "Reference" "C6"
-			(at 271.78 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 271.78 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 268.9352 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 267.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c85b74d8-0b89-40b0-8ad4-f2a7c65b0f5d")
-		)
-		(pin "2"
-			(uuid "f09ff789-173e-4897-aa81-fc77772d3199")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9657,6 +9365,72 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609ee181-b5a2-4896-bab0-93dc2ed5fa71")
+		(property "Reference" "#PWR06"
+			(at 227.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efc962e5-c8a2-4857-8f06-9c41589e6cdf")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10409,6 +10183,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 246.38 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e3e71a-b51c-4d20-9c06-3e52adde42d2")
+		(property "Reference" "R7"
+			(at 248.92 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 248.92 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 244.602 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "249f03a1-3abd-4bc5-a32d-39df4c0da846")
+		)
+		(pin "1"
+			(uuid "10547df1-d2f8-4573-904b-c2c9e4693b1e")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DE9_Receptacle")
 		(at 35.56 102.87 0)
 		(mirror y)
@@ -11115,16 +10959,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 53.34 0)
+		(at 238.76 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a96785be-5d0d-43cc-998f-b11cc8375665")
-		(property "Reference" "#PWR015"
-			(at 256.54 59.69 0)
+		(uuid "ab8d36d0-28d5-4d7e-b0fa-ccbcb90f5340")
+		(property "Reference" "#PWR08"
+			(at 238.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +10977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 58.42 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +10985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 53.34 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +10994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 53.34 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +11003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 53.34 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,12 +11012,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "20a73d35-5532-42cb-a627-175161f43083")
+			(uuid "bf0808dc-3f4d-4110-ac01-441cecc6e559")
 		)
 		(instances
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11723,72 +11567,6 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c385ed36-a01e-49ae-a8f6-5d27644be7d3")
-		(property "Reference" "#PWR016"
-			(at 267.97 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "235b6c81-85b3-4879-9e7b-1415a4a5dfd9")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12492,7 +12270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 22.5552 81.28 0)
 			(effects
 				(font
@@ -12595,6 +12373,76 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bb5e0e-1d78-4240-aea0-2a7e25ba3ace")
+		(property "Reference" "R6"
+			(at 229.87 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 229.87 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 225.552 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dff238c-2767-44b3-8553-3a288b0b6e8e")
+		)
+		(pin "1"
+			(uuid "65f81df4-7f1e-4803-b2d4-e31eb985cd44")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12799,79 +12647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 242.57 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dced4f58-2901-4981-83df-96e7a032ba40")
-		(property "Reference" "U1"
-			(at 242.57 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UA78L10ACLPRE3"
-			(at 242.57 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 243.205 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 242.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9fc2b1fe-6d30-424b-bb8d-c0264dabf813")
-		)
-		(pin "3"
-			(uuid "6eed674e-0b85-4fd6-ab9c-2399b0587a34")
-		)
-		(pin "1"
-			(uuid "794c93fe-4d00-4260-b72a-2f5ece7eebce")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 226.06 69.85 0)
 		(unit 1)
@@ -12938,17 +12713,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+10V")
-		(at 256.54 30.48 0)
+		(lib_id "power:+15V")
+		(at 227.33 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e64fbf36-74a4-4af8-a3ed-effbb6f15c55")
+		(uuid "de79865e-dcbd-4af9-91c7-a25913f7b2fe")
 		(property "Reference" "#PWR014"
-			(at 256.54 34.29 0)
+			(at 227.33 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,8 +12731,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V"
-			(at 256.54 25.4 0)
+		(property "Value" "+15V"
+			(at 227.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +12740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 30.48 0)
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +12749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 30.48 0)
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,8 +12757,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 256.54 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 227.33 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,10 +12767,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3356681-7f15-432c-98af-0fbe02f3626b")
+			(uuid "93a054b7-b22a-41ac-8f4b-2748cb179f8f")
 		)
 		(instances
-			(project ""
+			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR014")
 					(unit 1)
@@ -13073,17 +12848,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 226.06 30.48 0)
+		(lib_id "Device:LED")
+		(at 246.38 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecfc5b3a-5c96-4df9-ba83-f0d333d31fca")
-		(property "Reference" "#PWR06"
-			(at 226.06 34.29 0)
+		(uuid "eeec1b1a-b5cf-4cdb-9d3f-3a444ecc430f")
+		(property "Reference" "D5"
+			(at 250.19 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 250.19 47.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 246.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13091,16 +12884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 30.48 0)
+		(property "Datasheet" "~"
+			(at 246.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,17 +12893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 226.06 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 226.06 30.48 0)
+		(property "Description" "Light emitting diode"
+			(at 246.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,12 +12903,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "34e5064f-65d6-447e-b473-e989e04ffc0a")
+			(uuid "a6da583d-1913-4e80-b00f-8ddda7f17265")
+		)
+		(pin "2"
+			(uuid "b4a68c06-8f7c-4120-910a-7a410c239dc0")
 		)
 		(instances
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "#PWR06")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13303,7 +13082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 256.54 140.97 0)
 			(effects
 				(font
@@ -13352,6 +13131,76 @@
 			(project ""
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 227.33 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbabdc0d-78cc-4eb0-847d-15786ab56646")
+		(property "Reference" "D4"
+			(at 231.14 32.0674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 231.14 34.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858088f1-db18-4bb7-b2e6-8e5b57e78a8d")
+		)
+		(pin "2"
+			(uuid "0fc13be3-5e19-4677-ab6f-f97bea3b9f55")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13418,72 +13267,6 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff920dc0-11ed-4d9c-8f0f-b74c4f71de41")
-		(property "Reference" "#PWR08"
-			(at 242.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7069a25c-d002-4a36-8317-a167cced8bf1")
-		)
-		(instances
-			(project "smoke-detector-interface"
-				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
