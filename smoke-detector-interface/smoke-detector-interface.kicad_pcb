@@ -4481,7 +4481,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C14"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "41391547-dc23-41d9-b0a1-a6129e1e4dd7")
 			(effects
@@ -4492,7 +4492,7 @@
 			)
 		)
 		(property "Value" "1u FILM"
-			(at 2.5 2.2 360)
+			(at 2.5 2.2 0)
 			(layer "F.Fab")
 			(uuid "46a58f02-c188-4685-b8d7-985370531054")
 			(effects
@@ -4687,7 +4687,7 @@
 			(uuid "acc7b829-e994-4a27-8499-94c47b2be66b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "46c04b3f-477c-4068-be84-5802876e4db4")
 			(effects
@@ -6453,7 +6453,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "9a51bc66-0388-4959-b02c-f8db621143b4")
 			(effects
@@ -6464,7 +6464,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "f8f289f5-3d99-455c-993e-a98bb8e631f2")
 			(effects
@@ -6679,7 +6679,7 @@
 			(uuid "4081c59c-a4aa-4116-b96a-56f54e6be0dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "42968885-4bbb-4a7f-ab7a-b4e890db2c6c")
 			(effects
@@ -8896,6 +8896,119 @@
 			(uuid "8312e6b8-847e-43ba-abe6-5f8617dbc193")
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "675db046-e747-4b33-8133-9c17032dcb2e")
+		(at 147.955 59.055)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H2"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "5e8f48ae-89d2-42be-bbc7-b4587fe8698c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "22d63548-8265-4c22-9fb8-4468f3e815eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db0569e7-1dad-49a9-b9db-3591b10bdd44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da719d2e-f20d-4d39-8b51-a9b264f13c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1918355-c994-4ba1-bc23-11aea4f11b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/1c7cd97b-fcfd-42ec-9eb5-2f8ab64cd96e")
+		(sheetname "Root")
+		(sheetfile "smoke-detector-interface.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f0c2f09c-aa4c-48c2-9130-5e1fd0c7c341")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2fd93d88-290c-4a9b-9e31-2d50877e7271")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cdd7954c-8241-4d92-bc44-e25049e70892")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f055fec4-1b2d-4cf2-8786-8d121dd1038d")
+		)
+	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "7f92cf60-27c6-4398-9e4a-37f97bd94b39")
@@ -9885,6 +9998,119 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "3c0c40e9-64ab-48e6-aa7d-50370172d1d1")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "9034f295-c513-4a8d-9a2e-55f6d5c6a962")
+		(at 103.505 59.055)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H1"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(uuid "39af4474-0bb5-43aa-823a-eec53ddc719b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "8df20bfd-c309-49c2-875a-84608614aa93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2657faeb-0abc-4ded-8935-bf05cf06ac8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c37a6c-7b78-4644-8dbc-9068f13a8cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a484ee9f-6fd1-45f0-bcb3-00c04b4c61e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b5257ee7-fdda-48fc-9d20-29eff37b531e")
+		(sheetname "Root")
+		(sheetfile "smoke-detector-interface.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "adad4b30-8e17-4458-80ce-59bd44d52348")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "46ae5da6-9cb5-479e-8f3c-c95c317ec57a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c5584a10-1d08-40e4-80e2-a744087c666d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0426d4ed-03cd-419b-b65c-cdd0b16ec8e8")
 		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
@@ -11602,7 +11828,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C10"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "5f1cc483-53d2-43d1-ba2f-782fc2ff6dbc")
 			(effects
@@ -11613,7 +11839,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 2.2 360)
+			(at 2.5 2.2 0)
 			(layer "F.Fab")
 			(uuid "4d069ecc-1f27-4539-bbc0-73c43bbdb4b1")
 			(effects
@@ -11808,7 +12034,7 @@
 			(uuid "f1ed8841-5f4a-4a5b-af9d-47ce9fb99a2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "62c347a8-9700-4fc2-8a41-b393baa212d5")
 			(effects
@@ -14761,7 +14987,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 12.7mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 6.985 0 360)
+			(at 6.985 0 0)
 			(layer "F.SilkS")
 			(uuid "28750956-bd27-4ccf-9eb5-e1dfe9991981")
 			(effects
@@ -14772,7 +14998,7 @@
 			)
 		)
 		(property "Value" "BZX79-C24"
-			(at 6.35 2.12 360)
+			(at 6.35 2.12 0)
 			(layer "F.Fab")
 			(uuid "65c756ac-ae2a-4710-98c9-c5f5760791b7")
 			(effects
@@ -15047,7 +15273,7 @@
 			(uuid "56ccc090-6eda-4685-8dba-123070b19a2a")
 		)
 		(fp_text user "K"
-			(at -1.905 0 360)
+			(at -1.905 0 0)
 			(layer "F.SilkS")
 			(uuid "68369735-dd89-42f7-ae01-69a1f453fc01")
 			(effects
@@ -15058,7 +15284,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.Fab")
 			(uuid "be2ca47a-9230-4ee6-8923-4a99422812ff")
 			(effects
@@ -15069,7 +15295,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.65 0 360)
+			(at 6.65 0 0)
 			(layer "F.Fab")
 			(uuid "e71dc999-1932-46f6-b72b-952044f93c57")
 			(effects
@@ -16994,7 +17220,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C11"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "0d51e8b6-1f65-4ae2-8378-a2c50f323928")
 			(effects
@@ -17005,7 +17231,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 2.2 360)
+			(at 2.5 2.2 0)
 			(layer "F.Fab")
 			(uuid "8aeb9008-2b85-4ac9-b255-1bfdf624cef5")
 			(effects
@@ -17200,7 +17426,7 @@
 			(uuid "b96e127c-fbb4-4d35-965f-eef3b30900e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "ba62086e-634b-42ea-a494-ee4e8ead3495")
 			(effects
