@@ -2487,6 +2487,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -5055,6 +5188,12 @@
 		(uuid "dbf33683-e8f7-4e2c-9c67-dcb3ff49d647")
 	)
 	(junction
+		(at 165.1 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee0d235e-1e69-40be-ad70-00483b4aebbc")
+	)
+	(junction
 		(at 72.39 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5398,6 +5537,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 43.18) (xy 175.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3181a760-cae2-406b-bdcc-fdd0aa5105b4")
+	)
+	(wire
+		(pts
 			(xy 74.93 147.32) (xy 77.47 147.32)
 		)
 		(stroke
@@ -5408,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 175.26 43.18)
+			(xy 162.56 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5628,6 +5777,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 30.48) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d44aab8-1045-4933-b734-2e323ab46ce6")
+	)
+	(wire
+		(pts
 			(xy 97.79 41.91) (xy 97.79 36.83)
 		)
 		(stroke
@@ -5705,6 +5864,16 @@
 			(type default)
 		)
 		(uuid "5c465de9-8c5e-4ecf-ae48-b9573d06be39")
+	)
+	(wire
+		(pts
+			(xy 165.1 43.18) (xy 166.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6aeed4-b187-486b-a784-abddaf56bebc")
 	)
 	(wire
 		(pts
@@ -6937,6 +7106,29 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.1 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fec5ffd6-53c4-43f6-a5d3-416104028da5")
+		(property "Netclass" "Power"
+			(at 162.56 33.5915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10792,6 +10984,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 170.18 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954f4740-6d9c-4b9d-88c4-63aaaa848eb6")
+		(property "Reference" "F1"
+			(at 170.18 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 170.18 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ThirdPartyFootprints:01530008"
+			(at 170.18 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fe33b4d-78fd-4178-b81c-6fadd5fda0bf")
+		)
+		(pin "1"
+			(uuid "76717955-4086-4efa-998f-633932d54143")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 55.88 0)
 		(unit 1)
@@ -11396,6 +11656,72 @@
 			(project "smoke-detector-interface"
 				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.1 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b337d088-c89d-43f3-a905-af7a2ff47356")
+		(property "Reference" "TP12VIN1"
+			(at 167.64 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+12"
+			(at 167.64 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db2dce74-0d4a-4f25-8a6a-b43a5d77e879")
+		)
+		(instances
+			(project "smoke-detector-interface"
+				(path "/c29341ff-72d1-44fb-b26d-485fe5ca1842"
+					(reference "TP12VIN1")
 					(unit 1)
 				)
 			)
